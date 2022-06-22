@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image:url(/images/bg-intro-desktop.png) ;
+    background-image:url('../images/bg-intro-desktop.png') ;
     background-size: cover;
     background-position: center center;
     background-color: #FF7A7A;
@@ -135,7 +135,7 @@ input{
 @media (max-width:720px){
 
     body{
-        background-image: url('/images/bg-intro-mobile.png');
+        background-image: url('../images/bg-intro-mobile.png');
     }
 
     br{
