@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:url(/images/bg-intro-desktop.png) ;
+    background-size: cover;
+    background-position: center center;
+    background-color: #FF7A7A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    margin: 4rem auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.main-text1{
+   margin: auto;
+   flex: 1;
+   text-align: center;
+   min-height: 315px;
+   margin-right: 4rem;
+   text-align: left;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    gap: 20px;
+   
+}
+
+h1{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+section .p-main{
+    line-height: 1.7rem;
+    font-size: 18px;
+}
+
+.quantia{
+    background-color:#6055A5 ;
+    padding: 13px;
+    margin-top: 30px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0px 8px 0px rgb(62 60 73 / 30%);;
+}
+
+.quantia .p-quantia{
+    width: 40%;
+    margin-inline: auto;
+    line-height: 1.7rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.formulario-main{
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: auto;
+}
+
+
+.formulario{
+    padding: 100px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.p-btn{
+    color: #CEBAD4;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.inp-span{
+    color: #FF7A7A;
+}
+
+.btn{
+    background-color: #5FD6A3;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: black;
+}
+
+
+@media (max-width:900px){
+    br{
+        display: none;
+    }
+}
+
+@media (max-width:720px){
+
+    body{
+        background-image: url('/images/bg-intro-mobile.png');
+    }
+
+    br{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+        width: 110vw;
+    }
+
+    .main-text1{
+        margin-top: -20px;
+        margin-bottom: -120px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    .main-text1{
+        flex-direction: column;
+        text-align: center;
+        margin-inline: auto;
+    }
+}
+
+@media (max-width:720px){
+   .main-text1{
+    margin-bottom: -100px;
+   }
+}
+
+@media (max-width:340px){
+    .container{
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    section{
+        width: 100vw;
+    }
+
+    .p-quantia{
+        padding: -30px;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+}
