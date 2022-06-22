@@ -168,6 +168,17 @@ input{
    }
 }
 
+@media (max-width:480px){
+    .p-main{
+        margin-bottom: 30px;
+    }
+
+    .main-text1{
+        margin-bottom: -40px;
+    }
+}
+
+
 @media (max-width:340px){
     .container{
         width: 100vw;
